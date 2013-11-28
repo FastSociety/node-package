@@ -1,0 +1,12 @@
+Source: node-package
+Section: misc
+Priority: extra
+Maintainer: Cameo <dev@cameo.tv>
+Build-Depends: debhelper (>= 8.0.0), nodejs, npm
+Standards-Version: 3.9.2
+Homepage: https://cameo.tv
+
+Package: node-package
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Whazzzaaaaappppp!

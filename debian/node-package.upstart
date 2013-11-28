@@ -1,0 +1,10 @@
+description	"node-package is da bomb!"
+author			"dev@cameo.tv"
+
+start on started mountall
+stop on shutdown
+
+respawn
+respawn limit 10 5
+
+exec /path/to/bin

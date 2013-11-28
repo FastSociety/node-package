@@ -10,6 +10,15 @@ Usage
 2. cp -R contents to your own project directory
 3. what 3? go code your project brooooooooo
 
+Advanced:
+
+1. git clone
+2. git branch: list available "styles"
+3. git merge <"style" branch> ...
+4. cp -R contents to your own project directory
+5. git reset --hard HEAD^ to reset your master till next time!
+6. what 6? go code your project brooooooooo
+
 Notes
 =====
 

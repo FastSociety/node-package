@@ -7,6 +7,12 @@ Usage
 =====
 
 1. git clone
+
+Advanced:
+
+1.a. git branch: list available "styles"
+1.b. git merge <"style" branch> ...
+
 2. cp -R contents to your own project directory
 3. what 3? go code your project brooooooooo
 

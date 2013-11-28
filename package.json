@@ -1,0 +1,34 @@
+{
+	"name": "required",
+	"version": "required",
+	"description": "Nuke/edit directives as (not) needed to prepare your final package.json!",
+	"keywords": ["xoxo asl"],
+	"homepage": "https://cameo.tv",
+	"bugs": {
+		"url": "https://github.com/FastSociety/node-package/issues",
+		"email": "dev@cameo.tv"
+	},
+	"license": {"license": "MIT"},
+	"author": "Cameo <dev@cameo.tv>",
+	"bin": "./bin/bar",
+	"directories": {
+		"bin": "./bin",
+		"lib": "./lib",
+		"doc": "./doc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:FastSociety/node-package.git"
+	},
+	"scripts": {
+		"preinstall": "echo hi",
+		"test": "make test",
+		"install": "echo bye"
+	},
+	"config": {"foo": "bar"},
+	"dependencies": {"nodejs"},
+	"devDependencies": {"mocha"},
+	"engines": {"node": "*", "npm": "*"},
+	"preferGlobal": "false",
+	"private": "false"
+}
